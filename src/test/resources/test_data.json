@@ -1,0 +1,35 @@
+{
+  "signupDefaults": {
+    "name": "Mawar",
+    "password": "Test12345",
+    "address": "Melati Street",
+    "city": "Bekasi",
+    "pincode": 12345,
+    "country": "Indonesia",
+    "roleAdmin": "admin",
+    "roleUser": "user"
+  },
+  "product": {
+    "categoryName": "Fruits",
+    "product1": "Strawberry",
+    "product1_img": "strawberry.jpg",
+    "description": "This is a fruit.",
+    "price": 8000,
+    "stock": 57
+  },
+  "order": {
+    "shippingInfo": {
+      "address": "Address",
+      "city": "City",
+      "country": "Country",
+      "pinCode": 12345
+    },
+    "taxPrice": 1440,
+    "shippingCharges": 200
+  },
+  "service": {
+    "baseUrl": "https://buyme.local",
+    "port": 5001,
+    "relaxedHttps": true
+  }
+}
