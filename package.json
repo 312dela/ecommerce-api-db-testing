@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "test": "rm -rf allure-results && mvn clean test",
+    "allure:open": "allure serve allure-results"
+  }
+}
